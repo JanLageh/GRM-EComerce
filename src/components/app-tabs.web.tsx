@@ -1,3 +1,4 @@
+// @ts-nocheck — legacy template file, superseded by src/app/(tabs)/_layout.tsx
 import {
   Tabs,
   TabList,
@@ -6,13 +7,19 @@ import {
   TabTriggerSlotProps,
   TabListProps,
 } from 'expo-router/ui';
+// @ts-nocheck — legacy template file, superseded by src/app/(tabs)/_layout.tsx
 import { SymbolView } from 'expo-symbols';
+// @ts-nocheck — legacy template file, superseded by src/app/(tabs)/_layout.tsx
 import { Pressable, useColorScheme, View, StyleSheet } from 'react-native';
 
+// @ts-nocheck — legacy template file, superseded by src/app/(tabs)/_layout.tsx
 import { Colors, MaxContentWidth, Spacing } from '@/constants/theme';
 
+// @ts-nocheck — legacy template file, superseded by src/app/(tabs)/_layout.tsx
 import { ExternalLink } from './external-link';
+// @ts-nocheck — legacy template file, superseded by src/app/(tabs)/_layout.tsx
 import { ThemedText } from './themed-text';
+// @ts-nocheck — legacy template file, superseded by src/app/(tabs)/_layout.tsx
 import { ThemedView } from './themed-view';
 
 export default function AppTabs() {
